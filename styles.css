@@ -1,0 +1,15 @@
+
+body {font-family: Arial; margin:0; background:#f7f8fa;}
+header {background:#fff; padding:20px; text-align:center; border-bottom:1px solid #ddd;}
+.logo {width:80px; height:auto;}
+.hero {background:url('assets/hero.png') center/cover no-repeat; padding:120px 20px; text-align:center; color:#fff; text-shadow:0 2px 6px rgba(0,0,0,0.4);}
+.hero h2 {font-size:48px; margin:0;}
+.hero p {font-size:20px;}
+.btn {background:#d73b3b; color:#fff; padding:12px 20px; border-radius:6px; text-decoration:none; font-weight:bold;}
+.about, .services, .quote {padding:40px 20px; max-width:900px; margin:auto;}
+.cards {display:flex; gap:20px; flex-wrap:wrap;}
+.card {background:#fff; padding:20px; border-radius:10px; flex:1; min-width:200px; box-shadow:0 4px 10px rgba(0,0,0,0.1);}
+form {display:flex; flex-direction:column; gap:12px;}
+form input, form button {padding:12px; border-radius:6px; border:1px solid #ccc;}
+form button {background:#0b3650; color:#fff; font-weight:bold; border:none;}
+footer {text-align:center; padding:20px; background:#071927; color:#cfe7ff;}

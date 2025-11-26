@@ -4,16 +4,49 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>Prime Auto Shipping</title>
-<style>
-body{font-family:Arial;margin:0;background:#f7f8fa;}
-header{background:#fff;padding:20px;border-bottom:1px solid #ddd;}
-.hero{background:url('hero.png') center/cover no-repeat;height:400px;display:flex;align-items:center;justify-content:center;color:white;font-size:40px;font-weight:bold;text-shadow:0 2px 6px rgba(0,0,0,0.4);}
-section{padding:20px;}
-</style>
+<link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-<header><h1>Prime Auto Shipping</h1></header>
-<div class="hero">Reliable Auto Shipping</div>
-<section><h2>About Us</h2><p>Your trusted US auto shipping partner.</p></section>
+<header>
+  <div class="top">
+    <img src="assets/hero.png" alt="Logo" class="logo">
+    <h1>Prime Auto Shipping</h1>
+  </div>
+</header>
+
+<section class="hero">
+  <h2>Reliable Auto Shipping Services</h2>
+  <p>Fast, insured and nationwide vehicle transport.</p>
+  <a href="#quote" class="btn">GET A QUOTE</a>
+</section>
+
+<section class="about" id="about">
+  <h3>About Us</h3>
+  <p>We provide nationwide, door-to-door auto transport services.</p>
+</section>
+
+<section class="services" id="services">
+  <h3>Our Services</h3>
+  <div class="cards">
+    <div class="card"><h4>Open Carrier</h4><p>Fast and affordable.</p></div>
+    <div class="card"><h4>Enclosed Transport</h4><p>Premium protection.</p></div>
+    <div class="card"><h4>Door-to-Door</h4><p>Convenient and secure.</p></div>
+  </div>
+</section>
+
+<section class="quote" id="quote">
+  <h3>Request a Quote</h3>
+  <form action="mailto:contact@primeautoshipping.com" method="post">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="text" placeholder="Pickup ZIP" required>
+    <input type="text" placeholder="Delivery ZIP" required>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Prime Auto Shipping</p>
+</footer>
 </body>
 </html>
